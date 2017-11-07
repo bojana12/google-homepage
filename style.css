@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  margin-top: 17px;
+}
+
+.content {
+  width: 500px;
+  margin: 150px auto 0 auto;
+}
+
+a {
+  display: inline;
+  outline: none;
+  color: #595959;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #404040;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+input {
+  width: 388px;
+  height: 4px;
+  padding: 20px;
+  margin-top: 35px;
+  display: inline-block;
+  border-radius: 2px;
+  border: 1px solid #cccccc;
+  outline: none;
+  box-shadow: 1px 1px 1px #d9d9d9;
+  border-top: 1px solid #e6e6e6;
+  font-weight: bold;
+}
+
+.search input[type=text]{
+  padding-right: 80px;
+}
+
+.search {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.search i{
+  position: absolute;
+}
+
+#first-icon {
+  right: 60px;
+  bottom: 16px;
+}
+
+#second-icon {
+  right: 20px;
+  bottom: 16px;
+  color: blue;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: hsl(0, 0%, 95%);
+  padding: 12px 16px;
+  border: 1px solid transparent;
+  color: #666666;
+  font-size: 12px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.buttons button:last-child {
+  margin-left: 8px; 
+}
+
+button:hover {
+  border: 1px solid #cccccc;
+  color: black;
+}
+
+input:hover {
+  box-shadow: 2px 2px 2px #d9d9d9;
+}
+
+footer {
+  background-color: hsl(0, 0%, 95%);
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  color: #595959;
+  margin: 0;
+}
+
+.language {
+  height: 60px;
+  width: 500px;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+}
+
+.language a:active {
+  color: blue;
+}
+
+.language a:visited {
+  color: blue;
+}
+
+footer span {
+  font-size: 15px;
+  font-family: arial, sans-serif;
+  padding: 12px 30px;
+  border-top: 0.5px solid #e6e6e6;
+  display: block;
+  border-bottom: 0.5px solid #d9d9d9;
+  color: #595959;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  padding: 12px 20px;
+  display: inline-block;
+}
+
+footer li {
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  border-bottom: 0.5px solid #e6e6e6;
+  display: inline-block;
+}
+
+footer ul:last-child {
+  float: right;
+}
